@@ -9,6 +9,7 @@ Added noDependencies branch to ommit node__modules
  7 Videos in tutorial:
 
 #1) https://youtu.be/gYzHS-n2gqU  Complete
+
 #2) https://youtu.be/HguAyYnWBuU  -> 4:40min
 
 
