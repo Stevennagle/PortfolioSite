@@ -10,6 +10,8 @@ Added noDependencies branch to ommit node__modules
 
 #1) https://youtu.be/gYzHS-n2gqU  Complete
 
-#2) https://youtu.be/HguAyYnWBuU  -> 15:00
+#2) https://youtu.be/HguAyYnWBuU  Complete -deviation on overlay
+
+#3) https://youtu.be/7WaohfclZRs
 
 
