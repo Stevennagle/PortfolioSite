@@ -29,8 +29,13 @@ a {
   color: #fff;
   text-decoration: none; }
 
-/*header{
-	position: fixed;
-	z-index:2;
-	width: 100%;
-}*/
+header {
+  position: fixed;
+  z-index: 2;
+  width: 100%; }
+
+.text-secondary {
+  color: secondary-color; }
+
+main {
+  padding: 4rem; }
