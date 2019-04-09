@@ -38,7 +38,7 @@ h3 {
     background: rgba(5, 5, 5, 0.9); }
 
 #lg-heading-back {
-  background: rgba(5, 5, 5, 0.6);
+  background: rgba(5, 5, 5, 0.7);
   padding: 0.2rem 2rem; }
 
 a {
@@ -58,9 +58,13 @@ main {
   height: 100%; }
   main .icons {
     margin-top: 1rem;
-    padding: 2rem 6rem; }
+    padding: 2rem 2rem;
+    margin-left: 4rem; }
   main a {
-    padding: 0.4rem; }
+    padding: 3rem 1rem 1rem 1rem;
+    margin-top: 1rem;
+    margin-right: 2rem;
+    border-radius: 15px; }
     main a:hover {
       color: #eece1a;
       transition: all 0.5s ease-out;

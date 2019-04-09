@@ -38,7 +38,7 @@ h3{
 #lg-heading-back{
 	//background-image: url(../img/carbon-fiber.jpg);
 	//opacity: 0.7;
-	background: rgba(lighten($primary-test,2),0.6);
+	background: rgba(lighten($primary-test,2),0.7);
 	//border-radius: 8px 0px ;
 	padding:0.2rem 2rem;
 	
@@ -66,17 +66,26 @@ main{
 
 	.icons{
 		margin-top: 1rem;
-		padding:2rem 6rem;
-		
+		padding:2rem 2rem;
+		//Icon tab-over
+		margin-left: 4rem;		
 	}
+
 	a{
-		padding:0.4rem;
+		//social media link background
+		padding:3rem 1rem 1rem 1rem;
+		margin-top: 1rem;
+		margin-right: 2rem;
+		border-radius:15px;
+
+
 		&:hover{	
 			color: $secondary-color;
 			@include easeOut();
 			background: rgba(lighten($primary-test,2),0.8);
 		}
 	}
+	
 	&#home{
 		//no scroll bars
 		overflow: hidden;
