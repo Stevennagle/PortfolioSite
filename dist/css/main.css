@@ -34,11 +34,12 @@ h3 {
   h2.sm-heading,
   h3.sm-heading {
     margin-bottom: 2rem;
-    padding: 0.2rem 2rem;
-    background: rgba(73, 73, 73, 0.5); }
+    padding: 0.2rem 4rem;
+    background: rgba(5, 5, 5, 0.9); }
 
 #lg-heading-back {
-  background: rgba(73, 73, 73, 0.7); }
+  background: rgba(5, 5, 5, 0.6);
+  padding: 0.2rem 2rem; }
 
 a {
   color: #fff;
@@ -56,12 +57,14 @@ main {
   padding: 4rem;
   height: 100%; }
   main .icons {
-    margin-top: 1rem; }
+    margin-top: 1rem;
+    padding: 2rem 6rem; }
   main a {
     padding: 0.4rem; }
     main a:hover {
       color: #eece1a;
-      transition: all 0.5s ease-out; }
+      transition: all 0.5s ease-out;
+      background: rgba(5, 5, 5, 0.8); }
   main#home {
     overflow: hidden; }
     main#home h1 {
