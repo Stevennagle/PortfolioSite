@@ -3,7 +3,8 @@
 
 *{
 	box-sizing: border-box;
-
+	//
+	//text-align: center;
 }
 
 body{
@@ -41,8 +42,7 @@ h3{
 	//opacity: 0.7;
 	background: rgba(lighten($primary-test,2),0.7);
 	//border-radius: 8px 0px ;
-	padding:0.2rem 2rem;
-	
+	padding:0.2rem 2rem;	
 }
 
 
@@ -69,7 +69,10 @@ main{
 		margin-top: 1rem;
 		padding:2rem 2rem;
 		//Icon tab-over
-		margin-left: 4rem;		
+		//margin-left: 50%;	
+		margin-right: 50%;	
+		//width: 30%;	
+		//text-align: center;
 	}
 
 	a{
@@ -88,13 +91,13 @@ main{
 	}
 
 	&#home{
+		text-align: center;
 		//no scroll bars
 		overflow: hidden;
 		h1{
 			//view port height by %
-			margin-top: 20vh;
+			margin-top: 30vh;
 		}
-
 	}
 }
 
