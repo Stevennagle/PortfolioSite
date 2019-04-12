@@ -71,7 +71,7 @@
 
 		&.show{
 			//slide in from top
-			transform: translate3d(0,0,0);
+			transform: translate3d(0, 0, 0);
 		}
 	} 
 
@@ -83,7 +83,7 @@
 		
 		&.show{
 			//slide in from bottom
-			transform: translate3d( 0, 0, 0);
+			transform: translate3d(0, 0, 0);
 		}
 		.portrait{
 			width: 250px;
@@ -97,26 +97,41 @@
 	.nav-item {
 		//Causing error V with home links sliding off screen ?
 		// Original 
-		transform: translate3d(600px,0,0);	
+		transform: translate3d(600px, 0, 0);	
 		@include easeOut;
 
 		&.show {
 			//slide in from right
-			//transform: translate3d(-150px,0,0);
 			transform: translate3d(0,0,0);
-
 			//13:26 min vid 4
+		}
+		&.current > a{
+			color: $secondary-color;
+		}
+	}
+	.nav-link {
+		display: inline-block;
+		position: relative;
+		font-size: 30px;
+		text-transform: uppercase;
+		padding: 1rem 0;
+		font-weight: 300;
+		color: #fff;
+		text-decoration: none;
+		@include easeOut;
+
+		&:hover{
+			color: $secondary-color;
 		}
 	}
 }
 
-	//delay nav item slide by 0.1s
-	@for $x from 1 through 4 {
-		.nav-item:nth-child(#{$x}) {
-			transition-delay: $x * 0.1s;
-
-		}
+//delay nav item slide by 0.1s
+@for $x from 1 through 4 {
+	.nav-item:nth-child(#{$x}) {
+		transition-delay: $x * 0.1s;
 	}
+}
 
 
 
