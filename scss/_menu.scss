@@ -101,7 +101,7 @@
 	.nav-item {
 		//Causing error V with home links sliding off screen ?
 		// Original 
-		//transform: translate3d(600px, 0, 0);	
+		//transform: translate3d(600px,0px,0px);	
 		//@include easeOut;
 
 		&.show {

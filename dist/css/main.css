@@ -125,6 +125,7 @@ body {
   background: #444;
   color: #fff;
   height: 100%;
+  width: 95%;
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5; }
@@ -157,6 +158,15 @@ h3 {
     padding: 0.5rem 4rem;
     background: rgba(5, 5, 5, 0.9);
     border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    text-align: center; }
+  h1.sm-heading-about,
+  h2.sm-heading-about,
+  h3.sm-heading-about {
+    margin-bottom: 2rem;
+    padding: 0.5rem 4rem;
+    background: rgba(5, 5, 5, 0.7);
+    border-bottom-right-radius: 15px;
     border-bottom-left-radius: 15px; }
 
 #lg-heading-back {
@@ -164,7 +174,8 @@ h3 {
   padding: 0.5rem 2rem;
   border-top-right-radius: 15px;
   border-top-left-radius: 15px;
-  padding-bottom: 40px; }
+  padding-bottom: 40px;
+  text-align: center; }
 
 a {
   color: #fff;
@@ -187,7 +198,8 @@ main {
   main a {
     padding: 50px 20px 20px 20px;
     text-align: center;
-    border-radius: 15px; }
+    border-radius: 15px;
+    text-align: center; }
     main a:hover {
       color: #eece1a;
       transition: all 0.5s ease-out;
