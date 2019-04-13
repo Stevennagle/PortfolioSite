@@ -1,0 +1,44 @@
+//Deviated from tutorial order: Vid 4- 25:20min 
+// phones
+@include mediaSm{
+
+}
+
+// tablets
+@include mediaMd{
+	main {
+		align-items: center;
+		text-align: center;
+		.lg-heading{
+			line-height: 1;
+			margin-bottom: 1rem;
+		}
+
+
+
+
+
+		//a{
+		//social media link background
+		//padding:8rem 1rem 8rem 1rem;
+		//margin-top: 3rem;
+		//margin-right: 1rem;
+		//border-radius:15px;
+		//}
+
+	}	
+
+}
+
+// desktops
+@include mediaLg{
+
+}
+
+// widescreens
+@include mediaXl{
+
+}
+
+
+

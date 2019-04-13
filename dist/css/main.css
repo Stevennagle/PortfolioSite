@@ -90,6 +90,14 @@
 .nav-item:nth-child(4) {
   transition-delay: 0.4s; }
 
+@media screen and (max-width: 768px) {
+  main {
+    align-items: center;
+    text-align: center; }
+    main .lg-heading {
+      line-height: 1;
+      margin-bottom: 1rem; } }
+
 * {
   box-sizing: border-box; }
 
@@ -149,18 +157,22 @@ main {
   padding: 4rem;
   height: 100%; }
   main .icons {
-    margin-top: 1rem;
-    padding: 2rem 2rem;
-    margin-right: 50%; }
+    margin-top: 10px;
+    padding: 3rem 2rem;
+    text-align: center; }
   main a {
-    padding: 3rem 1rem 1rem 1rem;
-    margin-top: 1rem;
-    margin-right: 2rem;
+    padding: 50px 20px 20px 20px;
+    text-align: center;
     border-radius: 15px; }
+    main a space {
+      margin: 10px; }
     main a:hover {
       color: #eece1a;
       transition: all 0.5s ease-out;
-      background: rgba(5, 5, 5, 0.8); }
+      background: rgba(5, 5, 5, 0.8);
+      min-width: 60px; }
+    main a i {
+      border: 10px; }
   main#home {
     text-align: center;
     overflow: hidden; }
