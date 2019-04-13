@@ -12,6 +12,7 @@
     	height: 6px;
 		margin: 0 0 10px 0;
 		background: #fff;
+		//background: set-text-color($primary-color);
 		@include easeOut;
     }
 	
@@ -100,8 +101,8 @@
 	.nav-item {
 		//Causing error V with home links sliding off screen ?
 		// Original 
-		transform: translate3d(600px, 0, 0);	
-		@include easeOut;
+		//transform: translate3d(600px, 0, 0);	
+		//@include easeOut;
 
 		&.show {
 			//slide in from right
@@ -120,6 +121,7 @@
 		padding: 1rem 0;
 		font-weight: 300;
 		color: #fff;
+		//background: set-text-color($primary-color);
 		text-decoration: none;
 		@include easeOut;
 

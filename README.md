@@ -16,4 +16,7 @@ Added noDependencies branch to ommit node__modules
 #3) https://youtu.be/7WaohfclZRs  Complete 
 									-redesigned:sizes/shapes/orientions
 
-#4) https://youtu.be/92J-3ajM0dI  Next
+#4) https://youtu.be/92J-3ajM0dI  Complete 
+									*slide in menu nav-links require adjustment
+
+#5) https://youtu.be/QOdnrMC9O7A 							
