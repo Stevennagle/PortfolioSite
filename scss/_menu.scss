@@ -17,11 +17,14 @@
 	
 	//Rotate menu button into "X"
 	&.close{
+		
 		transform: rotate(180deg);
 		.btn-line{
+
 			//line 1 ; rotate
 			&:nth-child(1){
 				transform: rotate(45deg) translate(6px, 4px);
+
 			}
 
 			//line 2 ; hide
@@ -54,7 +57,7 @@
 		display: flex;
 		flex-flow: column wrap;
 		align-items: center;
-		justify-content: center;
+		justify-content:center;
 		float: left;
 		width: 50%;
 		height: 100vh;
@@ -132,11 +135,3 @@
 		transition-delay: $x * 0.1s;
 	}
 }
-
-
-
-
-
-
-
-

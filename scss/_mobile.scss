@@ -1,6 +1,9 @@
 //Deviated from tutorial order: Vid 4- 25:20min 
 // phones
 @include mediaSm{
+	main#home h1{
+		margin-top: 10vh;
+	}
 
 }
 
@@ -9,25 +12,38 @@
 	main {
 		align-items: center;
 		text-align: center;
+
 		.lg-heading{
 			line-height: 1;
 			margin-bottom: 1rem;
 		}
+	}
+	ul.menu-nav,
+	div.menu-branding {
+		float: none;
+		width: 100%;
+		min-height: 0;
 
+		&.show{
+			transform: translate3d(0,0,0);	
+		}
+	}
+	.menu-nav{
+		height: 75vh;
+		transform: translate3d(-100%,0,0);
+		font-size: 24px;
+	}
 
+	.menu-branding {
+		height: 25vh;
+		transform: translate3d(100%,0,0);
 
-
-
-		//a{
-		//social media link background
-		//padding:8rem 1rem 8rem 1rem;
-		//margin-top: 3rem;
-		//margin-right: 1rem;
-		//border-radius:15px;
-		//}
-
-	}	
-
+		.portrait{
+			background: url('../img/portrait_small.jpg');
+			width:150px;
+			height:150px;
+		}
+	}
 }
 
 // desktops
