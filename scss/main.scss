@@ -28,6 +28,9 @@ h3{
 	&.lg-heading{
 		font-size: 6rem;
 	}
+	&.md-heading{
+		font-size: 3rem;	
+	}
 
 	&.sm-heading{
 		margin-bottom: 2rem;
@@ -106,11 +109,29 @@ main{
 		overflow: hidden;
 		h1{
 			//view port height by %
-			margin-top: 30vh;
+			margin-top: 20vh;
 		}
 	}
 }
 
 .space{
 	margin:30px;
+}
+
+.about-info{
+	
+	background: rgba(lighten($primary-test,2),0.8);
+	border-radius:15px;
+
+	display: grid;
+	
+	//adds spacing 
+	grid-gap: 30px;
+
+	grid-template-areas: 
+	'bioimage bio bio'
+	'job1 job2 job3';
+	grid-template-columns: repeat(3, 1fr);
+
+
 }
