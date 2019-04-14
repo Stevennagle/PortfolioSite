@@ -94,37 +94,6 @@
 .nav-item:nth-child(4) {
   transition-delay: 0.4s; }
 
-@media screen and (max-width: 500px) {
-  main#home h1 {
-    margin-top: 10vh; } }
-
-@media screen and (max-width: 768px) {
-  main {
-    align-items: center;
-    text-align: center; }
-    main .lg-heading {
-      line-height: 1;
-      margin-bottom: 1rem; }
-  ul.menu-nav,
-  div.menu-branding {
-    float: none;
-    width: 100%;
-    min-height: 0; }
-    ul.menu-nav.show,
-    div.menu-branding.show {
-      transform: translate3d(0, 0, 0); }
-  .menu-nav {
-    height: 75vh;
-    transform: translate3d(-100%, 0, 0);
-    font-size: 24px; }
-  .menu-branding {
-    height: 25vh;
-    transform: translate3d(100%, 0, 0); }
-    .menu-branding .portrait {
-      background: url("../img/portrait_small.jpg");
-      width: 150px;
-      height: 150px; } }
-
 * {
   box-sizing: border-box; }
 
@@ -228,16 +197,15 @@ main {
   grid-gap: 30px;
   grid-template-areas: 'bio bio bio' 'hobbies activities volunteering';
   grid-template-columns: repeat(3, 1fr);
-  /*
-.bio-image{
-	grid-area: bioimage;
-	marigin: auto;
-	border-radius: 50%;
-	border: $secondary-color 3px solid;
-}
-*/ }
+  /*.bio-image{
+			grid-area: bioimage;
+			marigin: auto;
+			border-radius: 50%;
+			border: $secondary-color 3px solid;
+		}*/ }
   .about-info .career {
-    grid-area: bio; }
+    grid-area: bio;
+    font-size: 1.325rem; }
   .about-info .hobbies {
     grid-area: hobbies; }
   .about-info .activities {
@@ -262,3 +230,37 @@ main {
   text-align: center;
   margin-right: 1rem;
   margin-left: 1rem; }
+
+@media screen and (max-width: 500px) {
+  main#home h1 {
+    margin-top: 10vh; } }
+
+@media screen and (max-width: 768px) {
+  main {
+    align-items: center;
+    text-align: center; }
+    main .lg-heading {
+      line-height: 1;
+      margin-bottom: 1rem; }
+  ul.menu-nav,
+  div.menu-branding {
+    float: none;
+    width: 100%;
+    min-height: 0; }
+    ul.menu-nav.show,
+    div.menu-branding.show {
+      transform: translate3d(0, 0, 0); }
+  .menu-nav {
+    height: 75vh;
+    transform: translate3d(-100%, 0, 0);
+    font-size: 24px; }
+  .menu-branding {
+    height: 25vh;
+    transform: translate3d(100%, 0, 0); }
+    .menu-branding .portrait {
+      background: url("../img/portrait_small.jpg");
+      width: 150px;
+      height: 150px; }
+  .about-info {
+    grid-template-areas: 'bio' 'hobbies'  'activities'  'volunteering';
+    grid-template-columns: 1fr; } }
