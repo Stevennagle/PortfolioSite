@@ -52,8 +52,6 @@ h3{
 }
 
 #lg-heading-back{
-	//background-image: url(../img/carbon-fiber.jpg);
-	//opacity: 0.7;
 	background: rgba(lighten($primary-test,2),0.7);
 	//border-radius: 8px 0px ;
 	padding:0.5rem 2rem;
@@ -82,8 +80,10 @@ header{
 
 main{
 	padding: 4rem;
-	height:100%;
-	
+	//height:100%;
+	//sticky footer
+	min-height: calc(100vh-60px);
+
 	.icons{
 		margin-top: 3px;
 		text-align: center;
@@ -94,8 +94,7 @@ main{
 		padding: 50px 20px 20px 20px;
 		text-align: center;
 		border-radius:15px;
-		text-align:center;
-		
+			
 		&:hover{	
 			color: $secondary-color;
 			@include easeOut();
@@ -119,19 +118,61 @@ main{
 }
 
 .about-info{
-	
-	background: rgba(lighten($primary-test,2),0.8);
-	border-radius:15px;
-
 	display: grid;
 	
 	//adds spacing 
 	grid-gap: 30px;
 
 	grid-template-areas: 
-	'bioimage bio bio'
-	'job1 job2 job3';
+	'bio bio bio'
+	'hobbies activities volunteering';
 	grid-template-columns: repeat(3, 1fr);
 
-
+/*
+.bio-image{
+	grid-area: bioimage;
+	marigin: auto;
+	border-radius: 50%;
+	border: $secondary-color 3px solid;
 }
+*/
+
+	.career{
+		grid-area: bio;
+		//font-size: 1.5rem;
+	}
+
+	.hobbies{
+		grid-area: hobbies;
+	}
+
+	.activities{
+		grid-area: activities;
+	}
+
+	.volunteering{
+		grid-area: volunteering;
+	}
+
+	.job {
+		background: rgba(lighten($primary-test,2),0.85);
+		padding: 0.5rem;
+		border-bottom: $secondary-color 5px solid;
+		border-radius:15px;
+	}
+}
+
+#main-footer{
+	text-align: center;
+	padding: 1rem;
+	background: rgba(lighten($primary-test,2),0.85);
+	color: set-text-color($primary-test);
+	height: 60px;
+	border-radius:15px;
+}
+.container{
+	text-align: center;
+	margin-right: 1rem;
+	margin-left: 1rem;
+}
+

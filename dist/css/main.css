@@ -202,15 +202,14 @@ header {
 
 main {
   padding: 4rem;
-  height: 100%; }
+  min-height: calc(100vh-60px); }
   main .icons {
     margin-top: 3px;
     text-align: center; }
   main a {
     padding: 50px 20px 20px 20px;
     text-align: center;
-    border-radius: 15px;
-    text-align: center; }
+    border-radius: 15px; }
     main a:hover {
       color: #eece1a;
       transition: all 0.5s ease-out;
@@ -225,9 +224,41 @@ main {
   margin: 30px; }
 
 .about-info {
-  background: rgba(5, 5, 5, 0.8);
-  border-radius: 15px;
   display: grid;
   grid-gap: 30px;
-  grid-template-areas: 'bioimage bio bio' 'job1 job2 job3';
-  grid-template-columns: repeat(3, 1fr); }
+  grid-template-areas: 'bio bio bio' 'hobbies activities volunteering';
+  grid-template-columns: repeat(3, 1fr);
+  /*
+.bio-image{
+	grid-area: bioimage;
+	marigin: auto;
+	border-radius: 50%;
+	border: $secondary-color 3px solid;
+}
+*/ }
+  .about-info .career {
+    grid-area: bio; }
+  .about-info .hobbies {
+    grid-area: hobbies; }
+  .about-info .activities {
+    grid-area: activities; }
+  .about-info .volunteering {
+    grid-area: volunteering; }
+  .about-info .job {
+    background: rgba(5, 5, 5, 0.85);
+    padding: 0.5rem;
+    border-bottom: #eece1a 5px solid;
+    border-radius: 15px; }
+
+#main-footer {
+  text-align: center;
+  padding: 1rem;
+  background: rgba(5, 5, 5, 0.85);
+  color: #fff;
+  height: 60px;
+  border-radius: 15px; }
+
+.container {
+  text-align: center;
+  margin-right: 1rem;
+  margin-left: 1rem; }
