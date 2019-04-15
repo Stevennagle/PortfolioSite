@@ -1,5 +1,10 @@
-
 # PortfolioSite
+
+I have utilized my variation of this project at http://www.stevenagle.info/
+
+I will follow the tutorials in the remaining videos at such time that I'm ready to add the functionality from them to my page above.
+
+-----------------------------------------------------------------------------------------------------------------------
 A web portfolio landing page based off of a Traversy Media tutorial at this link : 
 
 Added node_modules to the most recent commit to ensure the availablility of dependencies. 
@@ -19,4 +24,6 @@ Added noDependencies branch to ommit node__modules
 #4) https://youtu.be/92J-3ajM0dI  Complete 
 									*slide in menu nav-links require adjustment
 
-#5) https://youtu.be/QOdnrMC9O7A 							
+#5) https://youtu.be/QOdnrMC9O7A  Complete
+
+-----------------------------------------------------------------------------------------------------------------------
