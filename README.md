@@ -2,7 +2,7 @@
 
 I have utilized my variation of this project at http://www.stevenagle.info/
 
-I will follow the tutorials in the remaining videos at such time that I'm ready to add the functionality from them to my page above.
+I plan to complete the remaining videos in the tutorial when I'm ready to add functionality to my info site.
 
 -----------------------------------------------------------------------------------------------------------------------
 A web portfolio landing page based off of a Traversy Media tutorial at this link : 
