@@ -1,9 +1,18 @@
-
 # PortfolioSite
+
 A web portfolio landing page based off of a Traversy Media tutorial at this link : https://youtu.be/gYzHS-n2gqU 
 
-I found out that there is a compatibility issue with IE.
 
+
+There is a compatibility issue with IE.
+
+=======================================================================
+
+I have utilized my variation of this project at http://www.stevenagle.info/
+
+I plan to complete the remaining videos in the tutorial when I'm ready to add functionality to my info site.
+
+-----------------------------------------------------------------------
 
 
  7 Videos in tutorial:
@@ -23,4 +32,5 @@ I found out that there is a compatibility issue with IE.
 
 #5) https://youtu.be/QOdnrMC9O7A  Complete
 
-#6) https://youtu.be/oxTG7TVr7PQ			
+
+#6) https://youtu.be/oxTG7TVr7PQ	
