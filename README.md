@@ -1,12 +1,14 @@
 
 # PortfolioSite
-A web portfolio landing page based off of a Traversy Media tutorial at this link : 
+A web portfolio landing page based off of a Traversy Media tutorial at this link : https://youtu.be/gYzHS-n2gqU 
 
-Added node_modules to the most recent commit to ensure the availablility of dependencies. 
+I found out that there is a compatibility issue with IE.
 
-Added noDependencies branch to ommit node__modules
+
 
  7 Videos in tutorial:
+
+====================================================================
 
 #1) https://youtu.be/gYzHS-n2gqU  Complete
 
@@ -19,4 +21,6 @@ Added noDependencies branch to ommit node__modules
 #4) https://youtu.be/92J-3ajM0dI  Complete 
 									*slide in menu nav-links require adjustment
 
-#5) https://youtu.be/QOdnrMC9O7A 							
+#5) https://youtu.be/QOdnrMC9O7A  Complete
+
+#6) https://youtu.be/oxTG7TVr7PQ			
