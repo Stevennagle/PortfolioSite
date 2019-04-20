@@ -226,6 +226,14 @@ main {
     border-bottom: #eece1a 5px solid;
     border-radius: 15px; }
 
+.projects {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px; }
+  .projects img {
+    width: 100%;
+    border-radius: 15px; }
+
 #main-footer {
   text-align: center;
   padding: 1rem;
