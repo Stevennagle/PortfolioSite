@@ -165,10 +165,9 @@ main{
 // Projects
 .projects{
 	display: grid;
+	grid-gap: 0.7rem;
 	grid-template-columns: repeat(3,1fr);
-	grid-gap: 20px;
-
-
+	
 	img{
 		width: 100%;
 		//padding: 10px;
@@ -178,9 +177,37 @@ main{
         &:hover{
         	opacity: 0.5;
         	border-color: #fff;
-        	@include ease-out;
+        	@include easeOut;
         }
 	}
+}
+
+//button styles 12:50
+.btn{
+	display: block;
+	padding: 0.5rem 1rem;
+	border: 0;
+	border-radius:15px;
+	margin-bottom: 0.3rem; 
+	
+	&.hover{
+		background: $secondary-color;
+		color: set-text-color($secondary-color);
+	}
+}
+
+.btn-dark{
+	@extend .btn;
+	background: darken($primary-color, 50);
+	color: #fff;
+	text-align: right;
+}
+
+.btn-light{
+	@extend .btn;
+	background: lighten($primary-color, 50);
+	color: #333;
+
 }
 
 #main-footer{
