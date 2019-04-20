@@ -173,6 +173,13 @@ main{
 		width: 100%;
 		//padding: 10px;
         border-radius:15px;
+        border:3px $secondary-color solid ;
+
+        &:hover{
+        	opacity: 0.5;
+        	border-color: #fff;
+        	@include ease-out;
+        }
 	}
 }
 
