@@ -127,10 +127,20 @@ h3 {
   h2.lg-heading,
   h3.lg-heading {
     font-size: 6rem; }
-  h1.md-heading,
+  h1.md-heading, h1.md-heading-projects,
   h2.md-heading,
-  h3.md-heading {
-    font-size: 3rem; }
+  h2.md-heading-projects,
+  h3.md-heading,
+  h3.md-heading-projects {
+    font-size: 3rem;
+    border-top: 3px #eece1a solid; }
+  h1.md-heading-projects,
+  h2.md-heading-projects,
+  h3.md-heading-projects {
+    border-right: 3px #eece1a solid;
+    border-left: 3px #eece1a solid;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px; }
   h1.sm-heading,
   h2.sm-heading,
   h3.sm-heading {
@@ -140,14 +150,24 @@ h3 {
     border-bottom-right-radius: 15px;
     border-bottom-left-radius: 15px;
     text-align: center; }
-  h1.sm-heading-about,
+  h1.sm-heading-about, h1.sm-heading-projects,
   h2.sm-heading-about,
-  h3.sm-heading-about {
+  h2.sm-heading-projects,
+  h3.sm-heading-about,
+  h3.sm-heading-projects {
     margin-bottom: 2rem;
     padding: 0.5rem 4rem;
     background: rgba(5, 5, 5, 0.7);
     border-bottom-right-radius: 15px;
     border-bottom-left-radius: 15px; }
+  h1.sm-heading-projects,
+  h2.sm-heading-projects,
+  h3.sm-heading-projects {
+    border-right: 3px #eece1a solid;
+    border-left: 3px #eece1a solid;
+    border-bottom: 3px #eece1a solid;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px; }
 
 #lg-heading-back {
   background: rgba(5, 5, 5, 0.7);
@@ -232,10 +252,9 @@ main {
   grid-template-columns: repeat(3, 1fr); }
   .projects img {
     width: 100%;
-    border-radius: 15px;
     border: 3px #eece1a solid; }
     .projects img:hover {
-      opacity: 0.5;
+      opacity: 0.7;
       border-color: #fff;
       transition: all 0.5s ease-out; }
 
@@ -243,7 +262,6 @@ main {
   display: block;
   padding: 0.5rem 1rem;
   border: 0;
-  border-radius: 15px;
   margin-bottom: 0.3rem; }
   .btn.hover, .hover.btn-dark, .hover.btn-light {
     background: #eece1a;
@@ -252,11 +270,21 @@ main {
 .btn-dark {
   background: black;
   color: #fff;
-  text-align: right; }
+  text-align: right;
+  border: 3px #eece1a solid; }
+  .btn-dark:hover {
+    opacity: 0.7;
+    border-color: #fff;
+    transition: all 0.5s ease-out; }
 
 .btn-light {
   background: #c4c4c4;
-  color: #333; }
+  color: #333;
+  border: 3px #eece1a solid; }
+  .btn-light:hover {
+    opacity: 0.7;
+    border-color: #fff;
+    transition: all 0.5s ease-out; }
 
 #main-footer {
   text-align: center;

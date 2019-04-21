@@ -27,7 +27,16 @@ h3{
 		font-size: 6rem;
 	}
 	&.md-heading{
-		font-size: 3rem;	
+		font-size: 3rem;
+		border-top:3px $secondary-color solid ;	
+				
+	}
+	&.md-heading-projects{	
+		@extend .md-heading;
+        border-right:3px $secondary-color solid ;
+		border-left:3px $secondary-color solid ;
+		border-bottom-right-radius: 0px;
+		border-bottom-left-radius:  0px;
 	}
 
 	&.sm-heading{
@@ -37,6 +46,7 @@ h3{
 		border-bottom-right-radius: 15px;
 		border-bottom-left-radius:  15px;
 		text-align:center;
+
 	}
 
 	&.sm-heading-about{
@@ -46,6 +56,17 @@ h3{
 		border-bottom-right-radius: 15px;
 		border-bottom-left-radius:  15px;
 	}
+
+
+	&.sm-heading-projects{	
+		@extend .sm-heading-about;
+        border-right:3px $secondary-color solid ;
+		border-left:3px $secondary-color solid ;
+		border-bottom:3px $secondary-color solid ;
+		border-bottom-right-radius: 0px;
+		border-bottom-left-radius:  0px;
+	}
+
 }
 
 #lg-heading-back{
@@ -171,11 +192,11 @@ main{
 	img{
 		width: 100%;
 		//padding: 10px;
-        border-radius:15px;
+        //border-radius:15px;
         border:3px $secondary-color solid ;
 
         &:hover{
-        	opacity: 0.5;
+        	opacity: 0.7;
         	border-color: #fff;
         	@include easeOut;
         }
@@ -187,7 +208,7 @@ main{
 	display: block;
 	padding: 0.5rem 1rem;
 	border: 0;
-	border-radius:15px;
+	//border-radius:15px;
 	margin-bottom: 0.3rem; 
 	
 	&.hover{
@@ -201,12 +222,28 @@ main{
 	background: darken($primary-color, 50);
 	color: #fff;
 	text-align: right;
+
+	border:3px $secondary-color solid ;
+
+        &:hover{
+        	opacity: 0.7;
+        	border-color: #fff;
+        	@include easeOut;
+        }
 }
 
 .btn-light{
 	@extend .btn;
 	background: lighten($primary-color, 50);
 	color: #333;
+
+	border:3px $secondary-color solid ;
+
+        &:hover{
+        	opacity: 0.7;
+        	border-color: #fff;
+        	@include easeOut;
+        }
 
 }
 
@@ -218,6 +255,12 @@ main{
 	height: 60px;
 	border-radius:15px;
 }
+
+#main-footer-projects{
+
+}
+
+
 .container{
 	text-align: center;
 	margin-right: 1rem;
