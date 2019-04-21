@@ -257,9 +257,14 @@ main{
 }
 
 #main-footer-projects{
-
+	text-align: center;
+	padding: 1rem;
+	background: rgba(lighten($primary-test,2),0.85);
+	color: set-text-color($primary-test);
+	height: 60px;
+	border-bottom-right-radius: 15px;
+	border-bottom-left-radius:  15px;
 }
-
 
 .container{
 	text-align: center;

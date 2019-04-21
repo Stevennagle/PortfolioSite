@@ -294,6 +294,15 @@ main {
   height: 60px;
   border-radius: 15px; }
 
+#main-footer-projects {
+  text-align: center;
+  padding: 1rem;
+  background: rgba(5, 5, 5, 0.85);
+  color: #fff;
+  height: 60px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px; }
+
 .container {
   text-align: center;
   margin-right: 1rem;
