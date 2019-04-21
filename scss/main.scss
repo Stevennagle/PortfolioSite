@@ -28,8 +28,7 @@ h3{
 	}
 	&.md-heading{
 		font-size: 3rem;
-		border-top:3px $secondary-color solid ;	
-				
+		border-top:3px $secondary-color solid ;					
 	}
 	&.md-heading-projects{	
 		@extend .md-heading;
@@ -46,7 +45,6 @@ h3{
 		border-bottom-right-radius: 15px;
 		border-bottom-left-radius:  15px;
 		text-align:center;
-
 	}
 
 	&.sm-heading-about{
@@ -57,7 +55,6 @@ h3{
 		border-bottom-left-radius:  15px;
 	}
 
-
 	&.sm-heading-projects{	
 		@extend .sm-heading-about;
         border-right:3px $secondary-color solid ;
@@ -66,7 +63,6 @@ h3{
 		border-bottom-right-radius: 0px;
 		border-bottom-left-radius:  0px;
 	}
-
 }
 
 #lg-heading-back{
@@ -203,6 +199,40 @@ main{
 	}
 }
 
+//contact page
+.boxes{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: center;
+	margin-top: 1rem;
+
+	padding: 20px;
+
+	div{
+		font-size: 2rem;
+		border: 3px #fff solid;
+		padding: 1.5rem 2.5rem;
+		margin-bottom: 3rem;
+		@include easeOut;
+
+		background: rgba(lighten($primary-test,2),0.85);
+
+		&:hover{
+			padding: 0.5rem 1.5rem;
+			background: rgba(lighten($secondary-color,2),0.85);
+			border: 3px $secondary-color solid;
+			color: set-text-color($secondary-color);
+			
+			span{
+				//color: set-text-color($secondary-color);
+				color: #fff;
+			}
+		}
+	}
+}
+
+
 //button styles 12:50
 .btn{
 	display: block;
@@ -278,7 +308,6 @@ main{
 		color: secondary-color;
 		@include easeOut();
 		background: rgba(lighten($primary-test,2),0.8);
-
 	}
 }
 .about-img{
@@ -288,8 +317,6 @@ main{
 	//min-height: 50px;
 	border-radius: 15px;
 	border: solid 3px $secondary-color;
-
 }
-
 
 @import "mobile";
